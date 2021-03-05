@@ -3,11 +3,11 @@ let uniqueRandomName = require("unique-random-array");
 
 const random = (num=1) => {
   const getRandomItem = uniqueRandomName(starWarsNames)
-  const result = [];
+  const myResult = [];
   for (let i = 1; i <= num; i++) {
-    result.push(getRandomItem());
+    myResult.push(getRandomItem());
   }
-  return result.length === 1 ? result[0] : result;
+  return myResult.length === 1 ? myResult[0] : myResult;
 }
 
 module.exports = {
