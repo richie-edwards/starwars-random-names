@@ -8,7 +8,10 @@
     "semantic-release": "semantic-release"
   },
   "release": {
-    "branches": ["main", "master"]
+    "branches": [
+      "main",
+      "master"
+    ]
   },
   "repository": {
     "type": "git",
