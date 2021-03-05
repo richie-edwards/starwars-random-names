@@ -20,7 +20,7 @@ describe('random', () => {
         expect(sw.all).toContain(first);
     });
     
-    test('more than 1 random item is returned', () => {
+    test('more multiple random items are returned', () => {
         let fourRandomArray = sw.random(4);
         expect(fourRandomArray.length).toBe(4);
         fourRandomArray.forEach(name => {
